@@ -1,0 +1,92 @@
+.btn{/** dark-theme */
+    margin: 15px 8px 15px 8px;
+    width: 250px;
+    border-radius: 10px;
+    align-items: center;
+    appearance: none;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#03C988 0 -3px 0 inset;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 55px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 26px;
+    padding-right: 26px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 23px;
+}
+
+.light-theme .btn{
+    box-shadow: #F4B183 0 2px 4px,#F4B183 0 7px 13px -3px,#FFF2CC 0 -3px 0 inset;
+}
+
+.button-number{/** dark-theme */
+    background-color: #9DB2BF;  
+    color: white;   
+}
+
+.button-operator{/** dark-theme */
+    background-color: #2C394B;
+    color: white;
+}
+
+.button-equal{/** dark-theme */
+    background-color: #03C988;
+    color: white;
+}
+
+.light-theme .button-number{  
+    background-color: #FEA82F;  
+    color: white;   
+}
+
+.light-theme .button-operator{
+    background-color: #FF6701;
+    color: white;
+}
+
+.light-theme .button-equal{
+    background-color: #EE8572;
+    color: white;
+}
+  
+.btn:focus{/** dark-theme */
+    box-shadow: #03C988 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #03C988 0 -3px 0 inset;
+}
+  
+.btn:hover{/** dark-theme */
+    box-shadow: rgb(3, 201, 136) 0 4px 8px, rgb(3, 201, 136) 0 7px 13px -3px, #03C988 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+  
+.btn:active{/** dark-theme */
+    box-shadow: #03C988 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.light-theme .btn:focus{
+    box-shadow: #FFF2CC 0 0 0 1.5px inset, #F4B183 0 2px 4px, #F4B183 0 7px 13px -3px, #FFF2CC 0 -3px 0 inset;
+}
+
+.light-theme .btn:hover{
+    box-shadow: #FFF2CC 0 4px 8px, #FFF2CC 0 7px 13px -3px, #FFF2CC 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.light-theme .btn:active{
+    box-shadow: #FFF2CC 0 3px 7px inset;
+    transform: translateY(2px);
+}
